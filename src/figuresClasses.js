@@ -51,7 +51,7 @@ var Rectangle = /** @class */ (function () {
         this.height = height;
     }
     Rectangle.prototype.getArea = function () {
-        return Math.floor(this.width * this.height * 100) / 100;
+        return Math.round(this.width * this.height * 100) / 100;
     };
     return Rectangle;
 }());
